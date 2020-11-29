@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/DogFinder/static/css/main.dd05548c.chunk.css",
-    "main.js": "/DogFinder/static/js/main.b076817a.chunk.js",
-    "main.js.map": "/DogFinder/static/js/main.b076817a.chunk.js.map",
+    "main.css": "/DogFinder/static/css/main.7fdbb67f.chunk.css",
+    "main.js": "/DogFinder/static/js/main.331c6992.chunk.js",
+    "main.js.map": "/DogFinder/static/js/main.331c6992.chunk.js.map",
     "runtime-main.js": "/DogFinder/static/js/runtime-main.cde78849.js",
     "runtime-main.js.map": "/DogFinder/static/js/runtime-main.cde78849.js.map",
     "static/js/2.c84778fc.chunk.js": "/DogFinder/static/js/2.c84778fc.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.328f86af.chunk.js": "/DogFinder/static/js/3.328f86af.chunk.js",
     "static/js/3.328f86af.chunk.js.map": "/DogFinder/static/js/3.328f86af.chunk.js.map",
     "index.html": "/DogFinder/index.html",
-    "static/css/main.dd05548c.chunk.css.map": "/DogFinder/static/css/main.dd05548c.chunk.css.map",
+    "static/css/main.7fdbb67f.chunk.css.map": "/DogFinder/static/css/main.7fdbb67f.chunk.css.map",
     "static/js/2.c84778fc.chunk.js.LICENSE.txt": "/DogFinder/static/js/2.c84778fc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cde78849.js",
     "static/js/2.c84778fc.chunk.js",
-    "static/css/main.dd05548c.chunk.css",
-    "static/js/main.b076817a.chunk.js"
+    "static/css/main.7fdbb67f.chunk.css",
+    "static/js/main.331c6992.chunk.js"
   ]
 }
