@@ -1,6 +1,8 @@
 import React from "react";
 import Dog from "./Dog";
 import "./DogList.css";
+import {NavLink} from "react-router-dom";
+import Navbar from "./Navbar";
 
 function DogList(props){
 
@@ -10,7 +12,7 @@ function DogList(props){
                 return(
                     <div className="dog">
                     <h1>{dog.name}</h1>
-                    <a href={`/${dog.name}`}><img src={dog.src} alt=""></img></a>
+                    <NavLink exact to={`/${dog.name}`}><img src={dog.src} alt=""></img></NavLink>
                     <hr className="underline" />
                     </div>
                 )
