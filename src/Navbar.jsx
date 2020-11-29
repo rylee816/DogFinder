@@ -7,13 +7,13 @@ function Navbar(props){
     let name = props.dogs.map((dog)=> {
         return (
             <li className="nav-item" key={dog.name}>
-              <NavLink className="nav-link" exact to={`/dogs/${dog.name}`}>{dog.name}</NavLink>  
+              <NavLink className="nav-link" exact to={`/${dog.name}`}>{dog.name}</NavLink>  
             </li>
         )
     })
 return(
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a className="navbar-brand" href="/dogs">DogFinder</a>
+  <a className="navbar-brand" href="/">DogFinder</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -21,7 +21,7 @@ return(
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-        <NavLink className="nav-link" exact to="/dogs">Home <span className="sr-only">(current)</span></NavLink>
+        <NavLink className="nav-link" exact to="/">Home <span className="sr-only">(current)</span></NavLink>
       </li>
       {name}
     </ul>

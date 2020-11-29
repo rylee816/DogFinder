@@ -10,7 +10,7 @@ function DogList(props){
                 return(
                     <div className="dog">
                     <h1>{dog.name}</h1>
-                    <a href={`/dogs/${dog.name}`}><img src={dog.src} alt=""></img></a>
+                    <a href={`/${dog.name}`}><img src={dog.src} alt=""></img></a>
                     <hr className="underline" />
                     </div>
                 )

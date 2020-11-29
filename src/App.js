@@ -53,11 +53,7 @@ function App() {
     }
   ]);
 
-  function handleClick(name) {
-    alert("clicked");
-    getDog();
-  }
-  console.log(dogs);
+ 
 
   const getDog = (props) => {
     let name = props.match.params.name;
@@ -65,7 +61,7 @@ function App() {
       (dog) => dog.name.toLowerCase() === name.toLowerCase()
     );
     if(!currentDog){
-      return <Redirect to="/dogs" />
+      return <Redirect to="/" />
     }
     return (
       <Dog
@@ -88,10 +84,10 @@ function App() {
         <Switch>
           <Route
             exact
-            path="/dogs"
+            path="/"
             render={routeProps => <DogList {...routeProps} dogs={dogs}  />}
           />
-          <Route exact path="/dogs/:name" render={getDog} />
+          <Route exact path="/:name" render={getDog} />
           <Route render={()=> <h1>Error 404: Not Found</h1>}/>
         </Switch>
       </div>
