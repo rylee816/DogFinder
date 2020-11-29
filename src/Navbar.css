@@ -1,0 +1,9 @@
+/* .navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+} */
+
+.navbar button:focus{
+outline: none;
+}
