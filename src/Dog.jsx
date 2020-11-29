@@ -16,7 +16,7 @@ function Dog(props) {
             <h7>{fact}</h7>
             )     
         })}
-          <Link to="/dogs"><button className="btn btn-sm btn-danger">Go Back</button></Link>
+          <Link to="/"><button className="btn btn-sm btn-danger">Go Back</button></Link>
       </div>
     </div>
   );
