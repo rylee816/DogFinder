@@ -65,7 +65,7 @@ function App() {
       (dog) => dog.name.toLowerCase() === name.toLowerCase()
     );
     if(!currentDog){
-      return <Redirect to="/" />
+      return <Redirect to="/dogs" />
     }
     return (
       <Dog
@@ -88,7 +88,7 @@ function App() {
         <Switch>
           <Route
             exact
-            path="/"
+            path="/dogs"
             render={routeProps => <DogList {...routeProps} dogs={dogs}  />}
           />
           <Route exact path="/dogs/:name" render={getDog} />
